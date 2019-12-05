@@ -1,0 +1,24 @@
+@import './bootstrap-reboot.styl'
+@import './vars.styl'
+
+.content
+    margin: 40px
+
+html
+body
+    *
+        color $main-color
+        font-size: 1rem
+
+html
+	font-size: $default-font-size
+html
+    @media screen and (max-width: 600px)
+        font-size: $mobile-font-size
+
+a
+    &:hover
+        text-decoration: none
+
+h1
+    font-size: 2rem
